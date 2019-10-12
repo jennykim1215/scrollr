@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GET SCROLLIN</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- skrollr & jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      NOTE: Every thing you transition must have a starting state/value.
+    -->
+
+    <div 
+         data-0="
+         top:8%;
+         left:15%;"
+         data-2000="
+         top:8%;
+         left:15%;"
+         id="scroll-container"></div>
+      
+    <div
+         data-2018="
+                 opacity:0;
+                 left: 60%;"
+        
+         data-2019="
+                 opacity:100;
+                    left: 60%;"
+         data-2020="
+                    opacity:0;
+                    left: 60%;"
+         id="thisyear">THIS YEAR!</div>
+      
+    <div
+         data-0="
+                 opacity:100;
+                 left:-40%;"
+         data-1990="
+                left:100%;
+                    opacity:0;"
+         data-2030="
+                left:110%;
+                opacity:0;"
+         data-2500="
+                left:200%;
+                opacity:100;"
+         id="notthisyear">WHAT YEAR IS IT</div>
+      
+      <div
+         data-0="
+                 opacity:0;
+                 left:-40%;"
+           data-1989="
+                left:79%;
+                opacity:0;"
+         data-1990="
+                left:79%;
+                opacity:100;"
+         data-2018="
+                left:80%;
+                opacity:100;"
+         data-2019="
+                left:80%;
+                opacity:0;"
+           data-2020="
+                left:80%;
+                opacity:100;"
+            data-2040="
+                left:81%;
+                opacity:100;"
+           data-2041="
+                left:81%;
+                opacity:0;"
+           data-2500="
+                left:200%;
+                opacity:0;"
+         id="almostthere">ALMOST THERE</div>
+      
+      <a href="index4.html">
+    <div
+         data-0="
+        top:8%;
+         left:90%;"
+         data-2000="
+         top:8%;
+         left:90%;"
+         id="next">NEXT
+        </div>
+      </a>
+      
+      <div 
+         data-0="
+        top:92%;
+        left:15%;"
+         data-2000="
+         top:92%;
+         left:15%;"
+         id="pagenumber">4/50</div>
+      
+      <a href="index2.html">
+      <div
+         data-0="
+        top:92%;
+        left:90%;"
+        data-2000="
+         top:92%;
+         left:90%;"
+         id="next">BACK
+        </div>
+      </a>
+      
+      
+
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
